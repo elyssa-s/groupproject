@@ -58,15 +58,39 @@ html, body, ul{
 
 }
 
-.hero {
-  float:left;
-  position: relative;
-  padding-top: 230px;
-  padding-bottom: 230px;
+.wrapper {
 	width: 100%;
-  background-image: url("spicymayobk.jpg");
-  background-size: cover;
-  z-index: -1;
+	margin: 0 auto;
+	box-sizing: border;
+
+}
+
+
+.left-column {
+	float:left;
+	background-image:url("spicymayobk.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 700px;
+	align-content: center;
+	padding:10px;
+	box-sizing: border-box;
+
+}
+
+img {
+	width: 38px;
+	float:left;
+	padding:20px;
+}
+
+.right-column{
+	float:left;
+	background-color: black;
+	width: 50%;
+	height: 700px;
+	padding:100px;
+	box-sizing: border-box;
 
 }
 
@@ -103,6 +127,41 @@ h1{
 	color:white;
 	letter-spacing: 300px,
 }
+
+h3{
+	color:#f4a142;
+}
+
+
+h6{
+	color: #f4a142;
+	text-transform: uppercase;
+}
+
+/*email form*/
+
+button {
+    background-color: #f4a142;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+    color: black;
+}
+
+form{
+width: 70%;
+}
+
+input{
+width: 100%;
+padding:5px;
+}
+
 
 /*mobile response*/
 
