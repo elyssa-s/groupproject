@@ -28,15 +28,16 @@ ul li{
   margin:0 16px;
 }
 
-a {
+nav a {
   float:left;
   display: block;
   color: white;
   text-align: center;
-  width:200px;
+  font-family: 'Shojumaru';
+  width:140px;
   height:50px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
   background-color: #f4a142;
 
 }
@@ -97,6 +98,7 @@ a:hover {
 
 
 h1 {
+font-family: 'Shojumaru';
 color: white;
 text-shadow: 7px 7px 40px #000000;
 text-align: right;
@@ -105,6 +107,7 @@ font-size: 100px;
 }
 
 h2 {
+  font-family: 'Shojumaru';
   padding-top:20px;
   padding-left:20px;
   float:left;
@@ -115,13 +118,14 @@ h2 {
 
 p{
   float:right;
-  font-family: helvetica;
+  font-family: 'Montserrat';
   color: white;
   text-shadow: 4px 4px 4px #000000;
   text-align: center;
   font-size: 20px;
   width: 300px;
 }
+
 
 @media screen and (max-width: 600px) {
   nav {
